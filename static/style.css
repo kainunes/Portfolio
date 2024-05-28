@@ -307,7 +307,7 @@ b, .co {
   margin-bottom: 10px;
 }
 
-.cv .cv-item :: before {
+.cv .cv-item ::before {
   content: "";
   position: absolute;
   top: 0;
@@ -318,6 +318,3 @@ b, .co {
   background: #fff;
   border-radius: 50%;
 }
-
-
-
