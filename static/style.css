@@ -73,10 +73,10 @@ html, body {
   margin-right: 10px;
 }
 
-.nav-menu a i., .nav-menu a:focus i{
+.nav-menu a i, .nav-menu a:focus i{
   font-size: 24px;
   padding-right: 0.8rem;
-  color: cornflowerblue;
+  color: #88bb65;
 }
 
 #main {
@@ -333,3 +333,4 @@ b, .co {
   border-radius: 50%; /* Para criar o círculo */
   margin-right: 10px; /* Espaçamento entre o círculo e o texto */
 }
+
