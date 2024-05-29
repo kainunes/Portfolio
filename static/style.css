@@ -307,14 +307,29 @@ b, .co {
   margin-bottom: 10px;
 }
 
-.cv .cv-item ::before {
+ .empty-circle ::before {
   content: "";
   position: absolute;
   top: 0;
   left: -9px;
   width: 16px;
   height: 16px;
-  border: 2px solid #85bb65;
-  background: #fff;
-  border-radius: 50%;
+  border: 2px solid #85bb65; 
+  background-color: #fff; 
+  border-radius: 50%; 
+  margin-right: 10px;
+
+}
+
+
+.filled-circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 16px;
+  height: 16px;
+  background-color: #85bb65; /* Cor do preenchimento */
+  border-radius: 50%; /* Para criar o círculo */
+  margin-right: 10px; /* Espaçamento entre o círculo e o texto */
 }
