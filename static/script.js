@@ -2,7 +2,7 @@ const menuMobile = document.querySelector(".menu-mobile");
 const body = document.querySelector("body");
 
 menuMobile.addEventListener("click" , moveMenuLateral);
-fuction moveMenuLateral(){
+function moveMenuLateral(){
   if(menuMobile.classList.contains("bi-list")){
     menuMobile.classList.replace("bi-list", "bi-x");
   }else{
