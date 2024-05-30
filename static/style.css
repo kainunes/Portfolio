@@ -334,3 +334,10 @@ b, .co {
   margin-right: 10px; /* Espaçamento entre o círculo e o texto */
 }
 
+
+.centralizar-conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
