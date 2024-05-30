@@ -261,24 +261,7 @@ b, .co {
 .progress-bar {
   background-color: #85bb65;
 }
-.carousel-control-prev{
-  margin-left: -8rem;
-}
 
-.carousel-control-next{
-  margin-right: -8rem;
-}
- .carousel-indicators{
-  margin-bottom: -35px;
-}
-@media (max-width: 1860px) {
-  .carousel-control-prev{
-    margin-left: 0;
-  }
-  .carousel-control-next{
-    margin-right: 0;
-  }
-}
 .cv .cv-title{
   font-weight: 700;
   margin-top: 20px;
